@@ -1,0 +1,54 @@
+.iconactivateyoutube .activation-toggle-button {
+    width: 60px;
+    appearance: none;
+    border: 1px solid #999;
+    height: 30px;
+    border-radius: 15px;
+    padding: 0;
+    margin-right: 10px;
+}
+.iconactivateyoutube .activation-toggle-pill {
+    height: 26px;
+    width: 26px;
+    border-radius: 13px;
+    display: block;
+    background: #999;
+    position: relative;
+    left: 1px;
+    top: 0;
+    margin: 0;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.iconactivateyoutube.content-activated .card-header,
+.iconactivateyoutube.content-activated .card-footer,
+.iconactivateyoutube.content-activated .external-platform-icon,
+.iconactivateyoutube.content-activated .externalcontent-info {
+    display: none;
+}
+
+.iconactivateyoutube.content-activated .activation-toggle-pill {
+    margin-left: 30px;
+}
+
+.iconactivateyoutube .activation-toggler {
+    margin: 20px 0;
+}
+
+.iconactivateyoutube {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.iconactivateyoutube .card-footer {
+    font-size: 0.8em;
+}
+.iconactivateyoutube .external-platform-icon {
+    float: right;
+    width: 70px;
+    height: 70px;
+    margin: 20px 20px 0 20px;
+}
+
+#page-site-index.notloggedin section[data-region="blocks-center"] section .iconactivateyoutube .card-body {
+    padding: 1.25rem !important;
+}
